@@ -7,6 +7,12 @@ public class Main {
         Sasuke.nome = "Sasuke";
         Sasuke.aldeia = "Konoha";
         Sasuke.idade = 16;
+        Sasuke.SharinganAtivado();
+        String euSouUmNinja = Sasuke.EuSouUmNinja();
+        System.out.println(euSouUmNinja);
+        Sasuke.AnosParaSeTronarHokage(70);
+        int anosParaSeTronarHokage = Sasuke.AnosParaSeTronarHokage(70);
+        System.out.println("Voce tem " + Sasuke.idade + " anos então falta no minimo: " + anosParaSeTronarHokage + " anos para se tornar Hokage");
 
         System.out.println(Sasuke.nome);
         System.out.println(Sasuke.aldeia);
